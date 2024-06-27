@@ -3,7 +3,8 @@ import { LinksData } from "../../data/LinksData";
 import styles from "./home.module.scss";
 import profilePic from "../../assets/profile.jpeg";
 
-const Zoom = require("react-reveal/Zoom");
+// const Zoom = require("react-reveal/Zoom");
+import { Zoom } from 'react-awesome-reveal';
 
 const welcomeText = `I am, ${AboutData.firstName} ${AboutData.lastName}`;
 

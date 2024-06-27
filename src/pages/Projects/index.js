@@ -4,7 +4,8 @@ import { ProjectsData } from "../../data/ProjectsData";
 import { pageVariants, pageTransition } from "../../utils/FramerAnimation";
 import styles from "./projects.module.scss";
 
-const Flip = require("react-reveal/Flip");
+// const Flip = require("react-reveal/Flip");
+import { Flip } from 'react-awesome-reveal';
 
 const projectsOpen = "<projects>";
 const projectsClose = "</projects>";
